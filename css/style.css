@@ -240,7 +240,7 @@ header li:last-child{margin-right: 0;}
 /*  MOBILE FIRST*/
 
 /* SMALL DEVICES - TABLETS & DESCKTOPS */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
 
     .corpo{
         display: flex;
@@ -259,7 +259,7 @@ header li:last-child{margin-right: 0;}
 }
 
 /* SMALL DEVICES - TABLETS */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     /*HEADER*/
     nav li{
         margin: 5px 20px;
@@ -320,7 +320,7 @@ header li:last-child{margin-right: 0;}
 
 
 /* SMALL DEVICES - SMARTPHONES */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     
     header button{
         margin-right: 10px;
@@ -347,10 +347,19 @@ header li:last-child{margin-right: 0;}
     .servico button{
         width: 60%;
     }
+
+    .sobre{
+        padding: 40px 70px;
+        height: 800px;
+    }
+    .sobre h2{
+        font-size: 2.5rem;
+     }
+
 }
 
 /* SMALL DEVICES - SMARTPHONES */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 
 
     nav a{
@@ -390,6 +399,7 @@ header li:last-child{margin-right: 0;}
         height: 1000px;
     }
     .servico{
+        width: 85%;
         padding: 5px 5px;
         height: 300px;
         border-radius: 5px;
@@ -405,7 +415,7 @@ header li:last-child{margin-right: 0;}
 
     .sobre{
         padding: 5px 20px;
-        height: 600px;
+        height: 550px;
     }
     .sobre h2{
         font-size: 2rem;
