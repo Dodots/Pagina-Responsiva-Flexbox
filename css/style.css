@@ -321,6 +321,10 @@ header li:last-child{margin-right: 0;}
 
 /* SMALL DEVICES - SMARTPHONES */
 @media screen and (max-width: 480px) {
+    
+    header button{
+        margin-right: 10px;
+    }
     /*BANNER*/
     .banner{
         height: 550px;
@@ -363,7 +367,6 @@ header li:last-child{margin-right: 0;}
     /*BANNER*/
     .banner{
         height: 550px;
-        background: url("../img/fundoCorpo.jpg") center fixed;
     }
 
     .banner .text{
@@ -381,44 +384,45 @@ header li:last-child{margin-right: 0;}
 
     /*CORPO*/
 
-.corpo{
-    display: flex;
-    padding: 10px;
-    height: 1000px;
-}
-.servico{
-    padding: 5px 5px;
-    height: 300px;
-    border-radius: 5px;
-}
-.servico h2{
-    font-size: 1.5rem;
-}
-.servico p{
-    line-height:  1.2rem;
-}
+    .corpo{
+        display: flex;
+        padding: 10px;
+        height: 1000px;
+    }
+    .servico{
+        padding: 5px 5px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .servico h2{
+        font-size: 1.5rem;
+    }
+    .servico p{
+        line-height:  1.2rem;
+    }
 
-/*SOBRE*/
+    /*SOBRE*/
 
-.sobre{
-    padding: 5px 20px;
-    height: 600px;
-}
-.sobre h2{
-    font-size: 2rem;
-    font-weight: 50;
-}
-.sobre p{
-    margin-bottom: 10px;
-    font-size: 0.7rem;
-    max-width: 800px;
-    line-height:  1.5rem;
-}
-.sobre button{
-    margin-top: 5px;
-    width: 80px;
-    height: 40px;
-}
-.rodape h2{
-    font-size: 2rem;}
+    .sobre{
+        padding: 5px 20px;
+        height: 600px;
+    }
+    .sobre h2{
+        font-size: 2rem;
+        font-weight: 50;
+    }
+    .sobre p{
+        margin-bottom: 10px;
+        font-size: 0.7rem;
+        max-width: 800px;
+        line-height:  1.5rem;
+    }
+    .sobre button{
+        margin-top: 5px;
+        width: 80px;
+        height: 40px;
+    }
+    .rodape h2{
+        font-size: 2rem;
+    }
 }
