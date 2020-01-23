@@ -35,13 +35,7 @@ header{
     background-color: rgba(255, 255, 255, 0.575);
     height: 100px;
 }
-.btn-menu{
-    display:none
-}
 
-.btn-close{
-    display:none;
-}
 header img{
     margin-left: 20px;
     margin-bottom: 20px;
@@ -199,7 +193,7 @@ header li:last-child{margin-right: 0;}
     width: 500px;
     height: 400px;
 }
-.rodape h1{
+.rodape h2{
     color: #fff;
     text-align: center;
     margin-bottom: 10px;
@@ -351,4 +345,80 @@ header li:last-child{margin-right: 0;}
     }
 }
 
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 320px) {
 
+
+    nav a{
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    nav ul{
+        display: flex;
+    }
+    nav li{
+        margin: 5px;
+    }
+
+    /*BANNER*/
+    .banner{
+        height: 550px;
+        background: url("../img/fundoCorpo.jpg") center fixed;
+    }
+
+    .banner .text{
+        background-color: rgba(245, 245, 245, 0.39);
+        height: 100px;
+        padding: 20px 20px;
+    }
+    .banner .text h1{
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    .banner .text h3{
+        font-size: .8rem;
+    }
+
+    /*CORPO*/
+
+.corpo{
+    display: flex;
+    padding: 10px;
+    height: 1000px;
+}
+.servico{
+    padding: 5px 5px;
+    height: 300px;
+    border-radius: 5px;
+}
+.servico h2{
+    font-size: 1.5rem;
+}
+.servico p{
+    line-height:  1.2rem;
+}
+
+/*SOBRE*/
+
+.sobre{
+    padding: 5px 20px;
+    height: 600px;
+}
+.sobre h2{
+    font-size: 2rem;
+    font-weight: 50;
+}
+.sobre p{
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+    max-width: 800px;
+    line-height:  1.5rem;
+}
+.sobre button{
+    margin-top: 5px;
+    width: 80px;
+    height: 40px;
+}
+.rodape h2{
+    font-size: 2rem;}
+}
