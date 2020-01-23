@@ -1,0 +1,354 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+nav{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+a:hover{opacity: 1;}
+img{
+    max-width: 100%;
+}
+button{
+    cursor: pointer;
+}
+
+/*HEADER*/
+header{
+    position: fixed;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.575);
+    height: 100px;
+}
+.btn-menu{
+    display:none
+}
+
+.btn-close{
+    display:none;
+}
+header img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 85px;
+    height: 70px;
+}
+header button{
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    border: 0;
+    border-radius: 7px;
+}
+header nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+}
+nav a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: 5px 80px;
+}
+header li:first-child{margin-left: 0;}
+header li:last-child{margin-right: 0;}
+
+/*BANNER*/
+
+.banner{
+    display: flex;
+    align-items: flex-end;
+    height: 660px;
+    background: url("../img/fundoCorpo.jpg") no-repeat center fixed;
+    text-align: center;
+}
+.banner .text{
+    background-color: rgba(245, 245, 245, 0.39);
+    height: 150px;
+    padding: 30px 10px;
+}
+.banner .text h1{
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.banner .text h3{
+    font-size: 1.2rem;
+}
+
+/*CORPO*/
+
+.corpo{
+    display: flex;
+    padding: 150px;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+.servico{
+    margin: 10px;
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 350px;
+    background-color: #000;
+    border-radius: 20px;
+}
+.servico h2{
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+.servico p{
+    color: #fff;
+    text-align: center;
+    line-height:  1.5rem;
+}
+.servico button{
+
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255),;
+    color: #000;
+    border-radius: 10px;
+    border: 0px;
+}
+
+/*SOBRE*/
+
+.sobre{
+    padding: 20px 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.199);
+    height: 500px;
+    align-items: center;
+}
+.sobre h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 50;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sobre p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    line-height:  1.9rem;
+}
+.sobre button{
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    width: 90px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/*RODAPE*/
+
+.rodape{
+    padding: 20px 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.contato{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    border: #000 solid 2px;
+}
+.contato img{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+.rodape h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.end{
+    width: 250px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.end p{
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formulario input{
+    padding: 4px;
+    border: 0;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 50px;
+    width: 300px;
+}
+.formulario button{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 900;
+}
+
+
+
+/*  MOBILE FIRST*/
+
+/* SMALL DEVICES - TABLETS & DESCKTOPS */
+@media screen and (max-width: 960px) {
+
+    .corpo{
+        display: flex;
+        padding: 50px;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+    }
+    .servico{
+        width: 500px;
+    }
+    
+    .sobre{
+        height: 700px;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (max-width: 768px) {
+    /*HEADER*/
+    nav li{
+        margin: 5px 20px;
+    }
+
+    /*BANNER*/
+    .banner .text{
+        height: 100px;
+        padding: 18px 10px;
+    }
+    .banner .text h1{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .banner .text h3{
+        font-size: 1rem;
+    }
+
+    /*CORPO*/
+    .corpo{
+        padding: 40px 20px;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 950px;
+    }
+    .servico{
+        width: 70%;
+        height: 250px;
+    }
+    .servico button{
+        width: 30%;
+    }
+   
+
+    /*SOBRE*/
+    .sobre{
+        padding: 20px 20px;
+    }
+
+    /*RODAPE*/
+    .contato img{
+        border-radius: 5px;
+        width: 300px;
+        height: 200px;
+    }
+    .contato{
+        align-items: center;
+        justify-content: space-between;
+        height: 550px;
+    }
+    .end{
+        margin: 0;
+    }
+    .formulario{
+        margin: 0;
+    }
+}
+
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 480px) {
+    /*BANNER*/
+    .banner{
+        height: 550px;
+    }
+    .banner .text h1{
+        font-size: 1.8rem;
+        margin-top: 7px;
+    }
+    .banner .text h3{
+        font-size: 1rem;
+    }
+
+    /*CORPO*/
+    .corpo{
+        height: 1100px;
+    }
+    .servico{
+        height: 300px;
+    }
+    .servico button{
+        width: 60%;
+    }
+}
+
+
